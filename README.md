@@ -1,4 +1,4 @@
-# Projetos_Decola5_Impacta
+# Projetos Decola TECH 5 - Impacta
  🚀 Decola Tech 5 🧡
 
 Este repositório contém projetos incríveis desenvolvidos durante o curso Decola TECH 5 🚀, com a orientação do professor Emilio Celso 👨‍🏫 na escola Impacta 🏫. Os projetos abrangem diversas tecnologias e conceitos de desenvolvimento full stack 💡✨
