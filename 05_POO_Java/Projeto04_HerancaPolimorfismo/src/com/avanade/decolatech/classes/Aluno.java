@@ -24,9 +24,15 @@ public class Aluno extends Pessoa {
 	}
 	// método que retorna a lista de cursos, se existirem
 	private String listarCursos() {
+		
+		StringBuilder builder = new StringBuilder();
+		int posicao = 1;
 		for(Curso c : this.getCursos()) {
-			
+			builder.append("Curso ").append(posicao)
+			.append("\ncódigo: ").append(c.getCodigo())
+			.append("\ndescricao: ").append(c.getDescricao());
 		}
+		return builder.toString();
 	}
 
 }
