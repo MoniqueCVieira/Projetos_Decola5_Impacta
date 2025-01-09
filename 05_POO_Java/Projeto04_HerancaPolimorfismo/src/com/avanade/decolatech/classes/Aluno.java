@@ -35,4 +35,18 @@ public class Aluno extends Pessoa {
 		return builder.toString();
 	}
 
+	@Override
+	public String getDados() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(super.getDados())
+		.append("\n\n")
+		.append("Matrpicula: ").append(this.getMatricula());
+		
+		if(this.getCursos() != null && this.getCursos().size() > 0) {
+			builder.append("\n").append(this.listarCursos());
+		} else {
+			builder.append("\n\nNenhum curso matriculado para este aluno!");
+		}
+		return builder.toString();
+	}
 }
