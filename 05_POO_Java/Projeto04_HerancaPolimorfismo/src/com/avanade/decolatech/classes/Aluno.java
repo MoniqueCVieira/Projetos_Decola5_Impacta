@@ -22,4 +22,11 @@ public class Aluno extends Pessoa {
 	public void setCursos(List<Curso> cursos) {
 		this.cursos = cursos;
 	}
+	// método que retorna a lista de cursos, se existirem
+	private String listarCursos() {
+		for(Curso c : this.getCursos()) {
+			
+		}
+	}
+
 }
