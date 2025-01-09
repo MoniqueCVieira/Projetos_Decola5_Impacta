@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.avanade.decolatech.classes.Funcionario"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="com.avanade.decolatech.classes.Pessoa"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.avanade.decolatech.aplicacao.AppAluno"/>
+    <fullyQualifiedTypeName name="com.avanade.decolatech.enumeracoes.Generos"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+</qualifiedTypeNameHistroy>

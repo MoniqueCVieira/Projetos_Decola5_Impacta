@@ -1,0 +1,15 @@
+package com.avanade.decolatech.aplicacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.avanade.decolatech.classes.Curso;
+
+public class AppAluno {
+
+	public static void main(String[] args) {
+		// Criando uma lista de cursos
+		ArrayList<Curso> cursos = new ArrayList<Curso>();
+	}
+
+}
