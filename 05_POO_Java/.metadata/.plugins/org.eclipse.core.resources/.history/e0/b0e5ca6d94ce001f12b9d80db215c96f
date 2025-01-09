@@ -1,0 +1,7 @@
+package com.avanade.decolatech.aplicacao;
+
+public class AppPolimorfismo {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,17 @@
+package com.avanade.decolatech.aplicacao;
+
+public class AppStrings {
+
+	public static void main(String[] args) {
+		
+		// motivação: dados primitivos
+		int x = 10; // a variável X receber o VALOR 10
+		boolean b = (x == 10) // comparação de VALORES (conteúdo da variável)
+		
+		// referencias String
+		String s1 = "Java";
+		String s2 = "Java";		
+		
+	}
+
+}
