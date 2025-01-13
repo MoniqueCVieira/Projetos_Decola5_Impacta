@@ -1,7 +1,6 @@
 package com.avanade.decolatech.classes;
 
-public class Funcionario extends Pessoa {
-
+public class Funcionario extends Pessoa{
 	private String cargo;
 	private double salario;
 	
@@ -20,24 +19,13 @@ public class Funcionario extends Pessoa {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-
-	@Override
-	public String getDados() {
-		// TODO Auto-generated method stub
-		return super.getDados();
-	}	
-
-
-// Não existe mais :(
-//	@override
-//	
-//	public String getDados() {
-//		StringBuilder builder = new StringBuilder();
-//		builder.append(super.getDados()).append("\n\n")
-//		.append("Cargo: ").append(this.getCargo())
-//		.append("\nSalário: ").append(this.getSalario());
-//		
-//		return builder.toString();
-//	}
 	
+	public String getDados() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(super.getDados()).append("\n\n")
+			.append("Cargo: ").append(this.getCargo())
+			.append("\nSalário: ").append(this.getSalario());
+		
+		return builder.toString();
+	}
 }

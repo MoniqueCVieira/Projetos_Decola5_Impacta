@@ -6,7 +6,6 @@ public class Endereco {
 	private String cidade;
 	private String cep;
 	
-	
 	public String getLogradouro() {
 		return logradouro;
 	}
@@ -39,14 +38,12 @@ public class Endereco {
 		this.cep = cep;
 	}
 	
-	
 	public String getDados() {
-		String resposta = String.format(
-				"Logradouro: %s\nNúmero: %s\nCidade: %s\nCEP: %s", 
+		return String.format(
+				"Logradouro: %s\nNúmero: %s\nCidade: %s\nCEP: %s",
 				this.getLogradouro(),
 				this.getNumero(),
 				this.getCidade(),
 				this.getCep());
-		return resposta;
 	}
 }

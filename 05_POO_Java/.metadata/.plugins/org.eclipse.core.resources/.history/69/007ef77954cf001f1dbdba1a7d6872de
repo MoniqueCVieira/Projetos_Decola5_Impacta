@@ -1,0 +1,19 @@
+package com.avanade.decolatech.classes;
+
+import com.avanade.decolatech.interfaces.Documento;
+
+public class DocumentoCpf implements Documento{
+
+	@Override
+	public void setNumero(String numero) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getNumero() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

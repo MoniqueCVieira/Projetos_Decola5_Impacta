@@ -1,0 +1,6 @@
+package com.avanade.decolatech.classes;
+
+public interface Documento {
+	void setNumero(String numero);
+	String getNumero();
+}

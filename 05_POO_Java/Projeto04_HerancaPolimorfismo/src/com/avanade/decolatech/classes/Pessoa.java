@@ -3,13 +3,10 @@ package com.avanade.decolatech.classes;
 import com.avanade.decolatech.enumeracoes.Generos;
 
 public class Pessoa {
-	
-	// todo atributo começa com letra minúscula
-	// e a classe começa com maiúscula
 	private String nome;
 	private int idade;
 	private Generos genero;
-	private Endereco endereco; 
+	private Endereco endereco;
 	
 	public String getNome() {
 		return nome;
@@ -43,18 +40,18 @@ public class Pessoa {
 		this.endereco = endereco;
 	}
 	
-	// Utilizar um StringBuilder quando se tem muita concatenação de strings
-	// para otimizar a aplicação e não ficar lenta.
 	public String getDados() {
 		StringBuilder builder = new StringBuilder();
 		
 		builder
 			.append("Nome: ").append(this.getNome())
 			.append("\nIdade: ").append(this.getIdade())
-			.append("\nGênero: ").append(this.getGenero());
-			
+			.append("\nGenero: ").append(this.getGenero());
+		
 		if(this.getEndereco() != null) {
-			builder.append("\n\n").append(this.getEndereco().getDados());
+			builder
+				.append("\n\n").append(this.getEndereco().getDados());
+			
 		}
 		
 		return builder.toString();

@@ -15,8 +15,8 @@ public class AppPessoa {
 		end.setCep("54001-000");
 		
 		Pessoa p = new Pessoa();
-		p.setNome("José Manoel");
-		p.setIdade(55);
+		p.setNome("Choi San");
+		p.setIdade(25);
 		p.setGenero(Generos.MASCULINO);
 //		p.setEndereco(end);
 		

@@ -33,7 +33,7 @@ public class Aluno extends Pessoa {
 		StringBuilder builder = new StringBuilder();
 		builder.append(super.getDados())
 		.append("\n\n")
-		.append("Matrpicula: ").append(this.getMatricula());
+		.append("Matricula: ").append(this.getMatricula());
 		
 		if(this.getCursos() != null && this.getCursos().size() > 0) {
 			builder.append("\n").append(this.listarCursos());
