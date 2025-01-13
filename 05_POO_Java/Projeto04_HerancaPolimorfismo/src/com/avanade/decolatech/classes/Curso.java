@@ -9,6 +9,9 @@ public class Curso {
 	private int ch;
 	private double preco;
 	
+	public Curso(String string, int i, int j) {
+
+	}
 	public int getCodigo() {
 		return codigo;
 	}
@@ -56,5 +59,6 @@ public class Curso {
 					"\nDescrição: " + this.getDescricao() +
 					"\nCarga Horária: " + this.getCh() +
 					"\nPreço: R$" + this.getPreco();
+		return resposta;
 	}
 }

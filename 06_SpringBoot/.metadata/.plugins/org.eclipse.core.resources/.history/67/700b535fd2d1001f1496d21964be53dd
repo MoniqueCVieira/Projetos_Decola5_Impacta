@@ -1,0 +1,17 @@
+package com.avanade.decolatech.rh.controllers;
+
+import java.util.List;
+
+public class HomeController {
+	public String icnicio() {
+		return "Sistema de gestão de RH";
+	}
+	public List<String> mostrarNomes(){
+		List<String> nomes = new ArrayList<String>();
+		nomes.add("Emílio");
+		nomes.add("Monique");
+		nomes.add("Danielle");
+		
+		return nomes;
+	}
+}
