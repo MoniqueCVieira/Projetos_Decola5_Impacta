@@ -1,0 +1,13 @@
+package com.avanade.decolatech.rh.repositories;
+
+import com.avanade.decolatech.rh.repositories.Candidato;
+
+@Service
+public class CandidatoRepository {
+	@Autowired
+	private CandidatoRepository candidatoRepository;
+	
+	public List<Candidato> listasCandidatos(){
+		return candidatoRepository.fundAll();
+	}
+}

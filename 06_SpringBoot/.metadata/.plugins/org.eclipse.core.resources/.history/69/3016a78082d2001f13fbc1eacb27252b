@@ -1,0 +1,5 @@
+package com.avanade.decolatech.rh.entities.copy;
+
+public class Area {
+
+}

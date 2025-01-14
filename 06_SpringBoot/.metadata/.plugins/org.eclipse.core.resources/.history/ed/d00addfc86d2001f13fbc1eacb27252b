@@ -1,0 +1,10 @@
+package com.avanade.decolatech.rh.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "TB_Area")
+public class Area {
+
+}

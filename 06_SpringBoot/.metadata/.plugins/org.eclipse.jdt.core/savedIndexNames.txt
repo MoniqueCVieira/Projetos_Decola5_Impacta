@@ -42,10 +42,10 @@ INDEX VERSION 1.134+C:\Users\m.caggiano.vieira\Documents\Projetos\DecolaTech\06_
 1130758060.index
 2850517464.index
 209825416.index
-878702714.index
-105321274.index
-2094854283.index
 2576954769.index
+105321274.index
+878702714.index
+2094854283.index
 939373946.index
 1070200091.index
 134190497.index

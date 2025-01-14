@@ -1,0 +1,17 @@
+package com.avanade.decolatech.rh.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "TB_Cargo")
+public class Cargo {
+	@ManyToOne()
+	private Area area;
+	
+	private String descricao;
+	private double salario;
+	private int tipoSalario;
+	private List<Inscricao> inscricoes;
+
+}

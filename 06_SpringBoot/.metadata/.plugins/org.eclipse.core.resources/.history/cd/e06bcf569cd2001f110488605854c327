@@ -1,0 +1,33 @@
+package com.avanade.decolatech.rh.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "TB_Incricao")
+public class Inscricao {
+	@Id
+	@Column(name = "ID")
+	@GeneratedValue(strategy = GenerationType.IDENTIFY)
+	private int id;
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "ID_CARGO")
+	private Cargo cargo;
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "CPF")
+	private Candidato candidato;
+	
+	@Column(name = "ID_SITUACAO")
+	private int situacao;
+	
+	@Column(name = "ID_DATAINCRICAO")
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date dataIncricao;
+	
+	@Column(name = "ID_DATAEFETIVACAO")
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date dataEfetivacao;
+
+}

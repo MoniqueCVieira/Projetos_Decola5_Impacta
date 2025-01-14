@@ -1,0 +1,25 @@
+package com.avanade.decolatech.rh.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "TB_Candidato)
+public class Candidato {
+	@Id
+	@Columm(name = "CPF")
+	private String cpf;
+	
+	@Columm(name = "NOME")
+	private String nome;
+	
+	@Columm(name = "TELEFONE")
+	private String telefone;
+	
+	@Columm(name = "EMAIL")
+	private String email;
+	
+	@OneToMany(cascade = CascadeType.ALL, fetch = Fetch.LAZY, mappedBy = "candidato")
+	private List<Inscricao> inscricoes;
+	
+}
