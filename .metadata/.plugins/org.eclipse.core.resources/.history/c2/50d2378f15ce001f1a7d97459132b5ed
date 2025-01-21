@@ -1,0 +1,8 @@
+// irá abrir uma janela escrito "Segundo Programa"
+package com.avanade.decolatech;
+
+public class SegundaClasse {
+	public static void main(String[] args) {
+		
+	}
+}

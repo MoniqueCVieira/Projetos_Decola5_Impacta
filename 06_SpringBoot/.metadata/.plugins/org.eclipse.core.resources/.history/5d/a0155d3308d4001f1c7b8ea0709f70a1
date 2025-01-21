@@ -1,0 +1,9 @@
+package com.avanade.decolatech.rh.DTO;
+
+public class InscricaoDTO {
+	private String area;
+	private String cargo;
+	private Date dataInscricao;
+	private String candidato;
+	private String telefone;
+}

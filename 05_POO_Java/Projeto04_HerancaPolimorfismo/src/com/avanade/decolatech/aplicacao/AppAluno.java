@@ -13,28 +13,9 @@ public class AppAluno {
 		// Criando uma lista de cursos
 		List<Curso> cursos = new ArrayList<Curso>();
 		
-		// Curso 1
-		Curso c1 = new Curso();
-		c1.setCodigo(100);
-		c1.setDescricao("Oracle Basico");
-		c1.setCh(40);
-		c1.setPreco(0);
-		
-		Curso c2 = new Curso();
-		c2.setCodigo(200);
-		c2.setDescricao("Análise de Dados");
-		c2.setCh(32);
-		c2.setPreco(1000);
-		
-		Curso c3 = new Curso();
-		c3.setCodigo(30);
-		c3.setDescricao("Inteligencia Emocional");
-		c3.setCh(40);
-		c3.setPreco(0);
-		
 		// Adicionando os cursos c1 e c2 na lista cujo variavel se chama cursos
-		cursos.add(c1);
-		cursos.add(c2);
+		cursos.add(new Curso("Oracle Básico", 40));
+		cursos.add(new Curso("Análise de Dados", 32, 1000));
 		
 		// Criando uma instancia da Classe Aluno
 		Aluno aluno = new Aluno();
@@ -42,13 +23,8 @@ public class AppAluno {
 		aluno.setIdade(42);
 		aluno.setGenero(Generos.MASCULINO);
 		aluno.setMatricula(1234);
-		
-		aluno.adicionarCursos(c3);
-		aluno.setCursos(cursos);
-		
+		aluno.adicionarCursos(new Curso("Inteligencia emocional", 40));
+
 		System.out.println(aluno.getDados());
-		
 	}
 }
-
-

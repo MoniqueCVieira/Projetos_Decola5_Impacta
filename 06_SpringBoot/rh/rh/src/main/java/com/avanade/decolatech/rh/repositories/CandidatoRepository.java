@@ -1,15 +1,9 @@
 package com.avanade.decolatech.rh.repositories;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import com.avanade.decolatech.rh.repositories.CandidatoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Service
-public class CandidatoRepository {
-	@Autowired
-	private CandidatoRepository candidatoRepository;
+import com.avanade.decolatech.rh.entities.Candidato;
+
+public interface CandidatoRepository extends JpaRepository<Candidato, String>{
 	
-	public List<Candidato> listasCandidatos(){
-		return candidatoRepository.fundAll();
-	}
 }

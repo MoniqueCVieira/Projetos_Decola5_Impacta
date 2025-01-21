@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="com.avanade.decolatech.enumeracoes.Generos"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="com.avanade.decolatech.classes.Documento"/>
 </qualifiedTypeNameHistroy>

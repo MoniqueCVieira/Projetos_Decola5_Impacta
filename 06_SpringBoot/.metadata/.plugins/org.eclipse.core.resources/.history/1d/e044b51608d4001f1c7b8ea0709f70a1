@@ -1,0 +1,5 @@
+package com.avanade.decolatech.rh.DTO;
+
+public class InscricaoDTO {
+
+}

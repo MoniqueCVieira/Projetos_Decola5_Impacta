@@ -1,0 +1,26 @@
+package com.avanade.decolatech.rh.entities;
+
+import java.util.List;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="TB_AREA")
+public class Area {
+	@Id
+	@Column(name="ID")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	@Column(name="DESCRICAO")
+	private int descricao;
+	@OneToMany(cascade=CascadeType.ALL,fetch =FetchType.LAZY, mappedBy = "area")
+	private List<Cargo> cargos;
+}

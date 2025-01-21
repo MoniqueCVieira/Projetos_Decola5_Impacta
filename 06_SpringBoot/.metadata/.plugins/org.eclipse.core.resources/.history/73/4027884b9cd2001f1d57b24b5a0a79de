@@ -1,0 +1,18 @@
+package com.avanade.decolatech.rh.entities;
+
+import java.util.Date;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name= "TB_INSCRICOES")
+public class Inscricao {
+	private int id;
+	private Cargo cargo;
+	private Candidato candidato;
+	private int situacao;
+	private Date dataInscricao;
+	private Date dataEfetivacao;
+	
+}

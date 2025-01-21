@@ -1,0 +1,9 @@
+package com.avanade.decolatech.rh.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.avanade.decolatech.rh.entities.Inscricao;
+
+public interface InscricaoRepository extends JpaRepository<Inscricao, Integer> {
+
+}

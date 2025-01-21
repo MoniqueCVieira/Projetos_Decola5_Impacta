@@ -1,465 +1,266 @@
-!SESSION 2025-01-13 10:31:19.753 -----------------------------------------------
-eclipse.buildId=4.34.0.20241128-0756
+!SESSION 2025-01-13 10:30:06.395 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
 java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\m.caggiano.vieira\Documents\Projetos\DecolaTech\06_SpringBoot
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
 
-!ENTRY ch.qos.logback.classic 1 0 2025-01-13 10:40:35.618
+!ENTRY ch.qos.logback.classic 1 0 2025-01-13 10:30:11.445
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2025-01-13 10:40:38.480
-!MESSAGE Logback config file: C:\Users\m.caggiano.vieira\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+!ENTRY ch.qos.logback.classic 1 0 2025-01-13 10:30:13.442
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
 
-!ENTRY org.eclipse.egit.ui 2 0 2025-01-13 10:40:56.183
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-13 10:30:22.806
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\m.caggiano.vieira'. If this is
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2025-01-13 13:08:10.155 -----------------------------------------------
-eclipse.buildId=4.34.0.20241128-0756
+!SESSION 2025-01-14 09:10:39.121 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
 java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY ch.qos.logback.classic 1 0 2025-01-13 13:10:38.031
+!ENTRY ch.qos.logback.classic 1 0 2025-01-14 09:10:49.863
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY org.eclipse.core.resources 2 10035 2025-01-13 13:10:39.601
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-14 09:10:54.932
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
-!ENTRY ch.qos.logback.classic 1 0 2025-01-13 13:10:42.562
-!MESSAGE Logback config file: C:\Users\m.caggiano.vieira\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+!ENTRY ch.qos.logback.classic 1 0 2025-01-14 09:10:56.444
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
 
-!ENTRY org.eclipse.egit.ui 2 0 2025-01-13 13:10:50.359
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-14 09:11:08.636
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\m.caggiano.vieira'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2025-01-14 09:30:14.697 -----------------------------------------------
-eclipse.buildId=4.34.0.20241128-0756
-java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY ch.qos.logback.classic 1 0 2025-01-14 09:31:33.111
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY ch.qos.logback.classic 1 0 2025-01-14 09:31:36.749
-!MESSAGE Logback config file: C:\Users\m.caggiano.vieira\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
-
-!ENTRY org.eclipse.egit.ui 2 0 2025-01-14 09:31:48.003
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\m.caggiano.vieira'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2025-01-14 13:46:41.621 -----------------------------------------------
-eclipse.buildId=4.34.0.20241128-0756
-java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY ch.qos.logback.classic 1 0 2025-01-14 13:48:45.066
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY org.eclipse.core.resources 2 10035 2025-01-14 13:48:46.479
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY ch.qos.logback.classic 1 0 2025-01-14 13:48:48.878
-!MESSAGE Logback config file: C:\Users\m.caggiano.vieira\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
-
-!ENTRY org.eclipse.egit.ui 2 0 2025-01-14 13:49:00.514
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\m.caggiano.vieira'. If this is
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.jdt.ui 4 0 2025-01-14 14:09:47.712
-!MESSAGE OperationCanceledException computing hover information in Cargo.java at offset 330
-!STACK 0
-org.eclipse.core.runtime.OperationCanceledException
-	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
-	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
-	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
-	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
-	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
-	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
-	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
-	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
-	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1048)
-	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
-	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-	Suppressed: java.lang.Throwable: Source line 17 :
------
-public class Cargo {
-	@Id
-	@Column(name = "ID")
-	@GeneratedValue(strategy = GenerationType.IDENTIFY)
-	private int id;
-	
-	@MantToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "ID_AREA")
-	private Area area;
-	
-	@Column(name = "|D")
------
-		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
-		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
-		... 10 more
-
-!ENTRY org.eclipse.jdt.ui 4 0 2025-01-14 14:14:01.716
-!MESSAGE OperationCanceledException computing hover information in Inscricao.java at offset 443
-!STACK 0
-org.eclipse.core.runtime.OperationCanceledException
-	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
-	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
-	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
-	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
-	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
-	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
-	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
-	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
-	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1048)
-	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
-	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-	Suppressed: java.lang.Throwable: Source line 19 :
------
-	@Id
-	@Column(name = "ID")
-	@GeneratedValue(strategy = GenerationType.IDENTIFY)
-	private int id;
-	
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "ID_CARGO")
-	private Cargo cargo;
-	
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "|C")
------
-		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
-		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
-		... 10 more
-
-!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 15:36:30.333
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 09:32:10.604
 !MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
 
-!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 15:36:30.335
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 09:32:10.606
 !MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
 
-!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 15:36:30.340
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 09:32:10.608
 !MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
 
-!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 15:36:30.344
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 09:32:10.610
 !MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
 
-!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 15:36:30.353
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 09:32:10.616
 !MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
 
-!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 15:36:30.355
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-14 09:32:10.621
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2025-01-15 09:35:20.423 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
 
-!ENTRY org.eclipse.lsp4e 2 0 2025-01-14 15:36:38.110
-!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:353)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:394)
-	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
-	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
-	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
-	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
-	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
-	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
-	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
-	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
-	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 09:35:30.047
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY org.eclipse.lsp4e 2 0 2025-01-14 15:36:38.163
-!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:353)
-	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:401)
-	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
-	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1252)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
-	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
-	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:68)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
-	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5740)
-	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5424)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1224)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1220)
-	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1703)
-	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4854)
-	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4732)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 09:35:32.732
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
 
-!ENTRY org.eclipse.jface.text 4 0 2025-01-14 15:36:38.698
-!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 5, method: 'textDocument/codeLens') has been cancelled
-!STACK 0
-java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 5, method: 'textDocument/codeLens') has been cancelled
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 5, method: 'textDocument/codeLens') has been cancelled
-	... 11 more
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-15 09:35:42.653
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-01-15 14:47:27.699 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
 
-!ENTRY org.eclipse.jdt.ui 4 0 2025-01-14 15:37:53.276
-!MESSAGE OperationCanceledException computing hover information in Inscricao.java at offset 227
-!STACK 0
-org.eclipse.core.runtime.OperationCanceledException
-	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
-	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
-	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
-	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
-	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
-	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
-	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
-	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
-	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:984)
-	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
-	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-	Suppressed: java.lang.Throwable: Source line 6 :
------
-package com.avanade.decolatech.rh.entities;
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 14:47:32.658
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-import org.apache.logging.log4j.message.AsynchronouslyFormattable;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import jakarta.*;
-import jakarta.persistence.|Entity;
------
-		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
-		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
-		... 10 more
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 14:47:35.696
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
 
-!ENTRY org.eclipse.jdt.ui 4 0 2025-01-14 15:52:28.464
-!MESSAGE OperationCanceledException computing hover information in Candidato.java at offset 78
-!STACK 0
-org.eclipse.core.runtime.OperationCanceledException
-	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
-	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
-	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
-	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
-	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
-	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
-	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
-	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
-	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
-	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:959)
-	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
-	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
-	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-	Suppressed: java.lang.Throwable: Source line 4 :
------
-package com.avanade.decolatech.rh.entities;
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-15 14:47:44.547
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-import java.util.List;
-import |com.fasterxml.jackson.annotation.JsonIgnore;
------
-		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
-		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
-		... 10 more
+!ENTRY org.eclipse.core.jobs 2 2 2025-01-15 14:47:59.291
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.oomph.internal.ui.EarlyStart$1 RUNNING
+	 at java.base/java.io.FileInputStream.open0(Native Method)
+	 at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	 at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	 at org.eclipse.emf.ecore.resource.impl.FileURIHandlerImpl.createInputStream(FileURIHandlerImpl.java:99)
+	 at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil$4.createInputStream(SetupCoreUtil.java:512)
+	 at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:358)
+	 at org.eclipse.oomph.setup.internal.core.util.ECFURIHandlerImpl$InputStreamConnectionHandler.handleCache(ECFURIHandlerImpl.java:1855)
+	 at org.eclipse.oomph.setup.internal.core.util.ECFURIHandlerImpl$InputStreamConnectionHandler.handleCache(ECFURIHandlerImpl.java:1)
+	 at org.eclipse.oomph.setup.internal.core.util.ECFURIHandlerImpl$ConnectionHandler.process(ECFURIHandlerImpl.java:1790)
+	 at org.eclipse.oomph.setup.internal.core.util.ECFURIHandlerImpl.createInputStream(ECFURIHandlerImpl.java:321)
+	 at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:358)
+	 at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	 at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.handleArchiveRedirection(SetupCoreUtil.java:696)
+	 at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.configureResourceSet(SetupCoreUtil.java:474)
+	 at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.configureResourceSet(SetupCoreUtil.java:268)
+	 at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.createResourceSet(SetupCoreUtil.java:262)
+	 at org.eclipse.oomph.setup.ui.recorder.RecorderManager.<clinit>(RecorderManager.java:121)
+	 at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:218)
+	 at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:23)
+	 at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:119)
+	 at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-01-15 14:52:55.057 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 14:52:59.677
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 14:53:02.352
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-15 14:53:11.244
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-01-15 16:39:11.545 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 16:39:17.512
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 16:39:19.459
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-15 16:39:27.039
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-01-15 16:44:13.847 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 16:44:20.405
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-15 16:44:22.506
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-15 16:44:30.296
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-01-16 09:44:10.866 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 09:44:15.841
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 09:44:27.876
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-16 09:44:36.193
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-01-16 15:43:16.359 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 15:43:20.072
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 15:43:21.346
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-16 15:43:26.482
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-01-16 22:27:21.458 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 22:27:25.551
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 22:27:26.999
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-16 22:27:31.979
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-01-16 22:35:58.416 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 22:36:02.164
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-16 22:36:03.354
+!MESSAGE Logback config file: C:\Users\s.vitoria.da.silva\Documents\Projetos\DecolaTech\06_SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-16 22:36:07.547
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\s.vitoria.da.silva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

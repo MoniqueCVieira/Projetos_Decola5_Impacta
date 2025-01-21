@@ -1,0 +1,27 @@
+package com.avanade.decolatech.rh.entities;
+
+import java.util.List;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="TB_CANDIDATOS")
+public class Candidato {
+	@Id
+	@Column(name="CPF")
+	private String cpf;
+	@Column(name="NOME")
+	private String nome;
+	@Column(name="TELEFONE")
+	private String telefone;
+	@Column(name="EMAIL")
+	private String email;
+	@OneToMany(cascade =CascadeType.ALL, fetch=FetchType.LAZY, mappedBy = "candidato")
+	private List<Inscricao> inscricoes;
+}

@@ -5,8 +5,8 @@ import com.avanade.decolatech.classes.Curso;
 public class AppCurso2 {
 	public static void main(String[] args) {
 		try {
-			Curso curso1 = new Curso();
-			curso1.setDados(100, "Inteligência Artificial", 0, 4000);
+			Curso curso1 = new Curso("Inteligência Artificial", 10, 4000);
+			// curso1.setDados(100, "Inteligência Artificial", 0, 4000);
 			System.out.println(curso1.getDados());
 			JOptionPane.showMessageDialog(null, curso1.getDados());
 			

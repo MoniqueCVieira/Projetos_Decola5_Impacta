@@ -1,0 +1,12 @@
+package com.avanade.decolatech.rh.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HomeController {
+
+	public String inicio() {
+		return "Sistema de gestão de RH.";
+	}
+	
+}

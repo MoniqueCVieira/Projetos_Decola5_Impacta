@@ -1,0 +1,25 @@
+package com.avanade.decolatech.rh.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.avanade.decolatech.rh.DTO.CandidatoInscricoesDTO;
+import com.avanade.decolatech.rh.DTO.InscricaoDTO;
+import com.avanade.decolatech.rh.repositories.InscricaoRepository;
+
+@Service
+public class InscricaoService {
+
+	@Autowired
+	private InscricaoRepository inscricaoRepository;
+	
+	public List<InscricaoDTO> listarInscricoesDTO(){
+		return inscricaoRepository.listarInscricoes();
+	}
+	
+	public List<CandidatoInscricoesDTO> listarInscricoesPorCandidatoDTO(){
+		return inscricaoRepository.listarInscricoesPorCandidatoDTO();
+	}
+}

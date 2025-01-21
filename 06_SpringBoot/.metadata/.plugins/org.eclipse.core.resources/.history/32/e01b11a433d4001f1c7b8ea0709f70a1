@@ -1,0 +1,8 @@
+package com.avanade.decolatech.rh.DTO;
+
+public class NovoCargoDTO {
+	private int idArea;
+	private String descricao;
+	private double salario;
+	private int tipoSalario;
+}
